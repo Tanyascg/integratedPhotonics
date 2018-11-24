@@ -1,0 +1,5 @@
+quadgk (@(x) exp(-2.*x.^2+2.*x-1), -Inf, Inf)
+quadgk (@(x) x.*exp(-2.*x.^2+2.*x-1), -Inf, Inf)
+quadgk (@(x) x.^2.*exp(-2.*x.^2+2.*x-1), -Inf, Inf)
+quadgk (@(x) x.^3.*exp(-2.*x.^2+2.*x-1), -Inf, Inf)
+quadgk (@(x) x.^4.*exp(-2.*x.^2+2.*x-1), -Inf, Inf)
